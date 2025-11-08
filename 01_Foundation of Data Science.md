@@ -75,3 +75,58 @@ A critical ethical consideration is **Algorithmic Price Discrimination and Fairn
 
 * **Bias Description:** The RL agent might inadvertently learn that certain demographic areas (e.g., lower-income neighborhoods) are less price-sensitive or have fewer competing options, leading it to consistently recommend **significantly higher prices** in those locations compared to wealthier areas, thereby creating or exacerbating **economic inequity**.
 * **Addressing the Bias:** To mitigate this, **fairness constraints** must be explicitly integrated into the RL model's reward function. For instance, the model could be penalized if the pricing disparity between predefined socioeconomic regions exceeds a certain threshold, forcing the algorithm to prioritize **fairness** alongside profit maximization.
+
+---
+
+# 📊 Geniş (Wide) ve Uzun (Long) Veri Açıklaması
+
+Bir veri kümesinin geniş veya uzun formatta olması, veriyi organize etme şeklimizi belirtir.
+
+| Özellik | ➡️ Geniş (Wide) Veri | ⬇️ Uzun (Long) Veri |
+| :--- | :--- | :--- |
+| **Temel Yapı** | Her satır bir gözlemi (subject) temsil eder. Değişkenler, farklı sütunlara dağılmıştır. | Her gözlem birden fazla satıra yayılmıştır. Bir sütun değişkenin adını, başka bir sütun ise o değişkenin değerini tutar. |
+| **Örnek** | Bir kişinin adı ve o kişinin Ocak, Şubat ve Mart aylarındaki harcamaları **üç ayrı sütunda** (Ocak\_Harcama, Şubat\_Harcama, Mart\_Harcama) yer alır. | Aynı harcama verisi, tek bir "Harcama" sütununda yer alır, ancak harcamanın hangi aya ait olduğunu belirten ek bir "Ay" sütunu bulunur. Bu, bir kişi için **üç ayrı satır** (Ocak, Şubat, Mart) anlamına gelir. |
+| **Sütun Sayısı** | Yüksek | Düşük |
+| **Satır Sayısı** | Düşük | Yüksek |
+| **Kullanım Alanı** | İstatistiksel yazılımlarda (SPSS gibi) veya veri girişi için daha yaygın. | Görselleştirme (Tableau, ggplot2) ve çoğu modern analiz kütüphanesi (R, Python) için ideal ve gereklidir. |
+
+---
+
+# 💾 Yapılandırılmış Veri Açıklaması
+
+**Yapılandırılmış Veri (Structured Data)**, kolayca tanımlanabilen ve organize edilebilen, genellikle satır ve sütun formatında düzenlenmiş verilerdir. Bu veriler, ilişkisel veritabanı yönetim sistemleri (RDBMS) tarafından kolayca işlenebilir ve aranabilir. Yapılandırılmış verinin temel özellikleri şunlardır:
+
+* **Önceden tanımlanmış bir şemaya (schema) veya modele sahiptir.**
+* **Genellikle sayısal değerler veya net kategorik (metinsel) değerler içerir.**
+* **SQL kullanılarak kolayca sorgulanabilir.**
+
+---
+
+# 🎯 SMART Metodolojisi ve Değişim Açıklaması
+
+SMART, hedeflerin belirlenmesinde kullanılan bir kısaltmadır ve genellikle şunları temsil eder:
+
+* **S**pecific (Spesifik/Belirli)
+* **M**easurable (Ölçülebilir)
+* **A**chievable (Ulaşılabilir)
+* **R**elevant (İlgili)
+* **T**ime-bound (Zamansal Sınırlı)
+
+---
+
+Veri analizi bağlamında, bir **SMART Sorusunun** amacı, net, ölçülebilir ve eyleme geçirilebilir bir yanıt alarak projenin ilerlemesini sağlamaktır. Değişime yol açan sorular, bir durumun sadece tanımlanmasından ziyade, **ne yapılacağını** sormaya odaklanmalıdır.
+
+# 📈 Metrik (Metric) Açıklaması
+
+**Metrik (Metric)**, bir iş sürecinin, ürünün veya hedefin ilerlemesini ve performansını izlemek ve değerlendirmek için kullanılan, **nicelleştirilmiş (ölçülebilir) bir değerdir**.
+
+Metrikler, sadece ham veriler (**facts**) değil, bu ham verilerden türetilmiş, bağlamı olan ve anlamlı bir karşılaştırmaya olanak tanıyan hesaplamalardır.
+
+---
+
+### 📝 Örnek
+
+| Kategori | Açıklama |
+| :--- | :--- |
+| **Ham Veri (Fact)** | Bir web sitesine gelen günlük ziyaretçi sayısı. |
+| **Metrik** | **Dönüşüm Oranı (Conversion Rate)** = (Satın alma yapan ziyaretçi sayısı / Toplam ziyaretçi sayısı) &times; 100. |
