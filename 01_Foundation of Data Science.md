@@ -1,6 +1,10 @@
 
 # 🚀 PACE Metodolojisine Giriş
 
+<img width="657" height="383" alt="image" src="https://github.com/user-attachments/assets/5d907f3c-3c46-491d-bee7-919ece4341db" />
+
+[The PACE Stages](https://medium.com/@andersongimino/the-pace-stages-12206e1ea536)
+
 ## 🎯 PACE Çerçevesi: Tanım, Uygulama ve Zorluklar
 PACE, projelerde Amaç (Purpose), Yaklaşım (Approach), Kısıtlamalar (Constraints) ve Beklenen Sonuç (Expected Outcome) bileşenlerini netleştiren bir metodolojidir.
 
