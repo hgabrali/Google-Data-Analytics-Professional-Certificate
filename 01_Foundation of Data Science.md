@@ -235,7 +235,7 @@ This table outlines the core tools and skills necessary for data professionals, 
 | Tool 🔧 | Definition | Examples | Transferable Skills |
 | :--- | :--- | :--- | :--- |
 | **Spreadsheets** 📊 | A digital worksheet where data can be manipulated and used for calculations. | * Google Sheets<br>* Microsoft Excel | * Data entry<br>* Mathematical calculations<br>* Manage datasets<br>* Task automation<br>* Data manipulation<br>* Data analysis |
-| **Databases** 💾 | A A collection of data stored in a computer system. | * Google Cloud SQL<br>* CloudSQL<br>* Oracle<br>* Microsoft SQL Server | * Database design<br>* Data storage management<br>* Data integrity |
+| **Databases** 💾 | A collection of data stored in a computer system. | * Google Cloud SQL<br>* CloudSQL<br>* Oracle<br>* Microsoft SQL Server | * Database design<br>* Data storage management<br>* Data integrity |
 | **Programming Languages** 💻 | A system of words and symbols used to write instructions that computers follow. | * SQL<br>* R<br>* Python<br>* Java<br>* C++ | * Communicate with computer systems<br>* Write and input commands<br>* Manage datasets<br>* Data manipulation<br>* Data analysis |
 | **Data Visualization** 📈 | The graphical representation of data. | * Tableau<br>* matplotlib<br>* Seaborn<br>* Google Charts<br>* Infogram<br>* Chartricks | * Communicate data insights<br>* Design compelling visuals<br>* Identify key metrics |
 | **Dashboards** ⏱️ | A tool that monitors live, incoming data. | * Tableau<br>* LookerStudio<br>* Microsoft Power BI | * Communicate data insights<br>* Monitor real-time data<br>* Develop data visualizations<br>* Design filters and custom calculations |
